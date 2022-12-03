@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
 import User from "./Components/user/user";
@@ -24,7 +23,7 @@ function App() {
 
       <div className="row mt-5">
 
-        {tabActive == 1 ? (
+        {tabActive === 1 ? (
           <Ticket></Ticket>
         ) : (
           <User></User>
