@@ -21,9 +21,9 @@ function User() {
     try {
 
       const config = {
-        url: "http://localhost:8080/api/app/user",
+        url: "http://129.213.149.62/Nodejs/api/app/user",
         method: 'get',
-        baseURL: 'https://localhost:8080/api/',
+        baseURL: 'http://129.213.149.62/Nodejs/api/',
         headers: {
           'Content-Type': 'application/json',
           'X-Requested-With': 'XMLHttpRequest',
@@ -66,9 +66,9 @@ function User() {
     try {
 
       const config = {
-        url: "http://localhost:8080/api/app/user",
+        url: "http://129.213.149.62/Nodejs/api/app/user",
         method: 'post',
-        baseURL: 'https://localhost:8080/api/',
+        baseURL: 'http://129.213.149.62/Nodejs/api/',
         headers: {
           'Content-Type': 'application/json',
           'X-Requested-With': 'XMLHttpRequest',
